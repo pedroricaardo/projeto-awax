@@ -683,3 +683,90 @@ CSS DE AREAS ESPECIFICAS
 .section_premium .pointer.active {
     background-color:#B28756;
 }
+
+.section_facts {
+    display: flex;
+}
+
+.section_fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section_fact h3 {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #B28756;
+}
+
+.section_fact_line {
+    border: 1px solid #B28756;
+    width: 20px;
+    margin: auto;
+}
+
+.section_fact h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section_fact p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+.default.section_share {
+    padding: 25px;
+}
+
+.section_share_area {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    color: #999;
+}
+
+.section_share_item {
+    font-size:12px;
+    margin-right:20px;
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+
+.section_share_item.legend {
+    margin-right: 45px;
+}
+
+.section_share_item.legend img {
+    margin-right: 10px;
+}
+
+.section_share_icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right:5px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_share_icon.twitter {
+    background-color:#34c5f0;
+}
+.section_share_icon.linkedin {
+    background-color:#127cb4;
+}
+.section_share_icon.facebook {
+    background-color:#336297;
+}
+.section_share_icon.googleplus {
+    background-color:#e74237;
+}
+.section_share_icon.pinterest {
+    background-color:#b71c29;
+}
